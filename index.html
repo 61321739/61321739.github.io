@@ -5,12 +5,22 @@
     <title>61321739のサイト</title>
     <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
     <style>.dot {font-family:'DotGothic16',serif;}</style>
+    <script>
+      const button = document.querySelector('#copy-discord')
+      button.addEventListener('click', () => {
+        navigator.clipboard.writeText('61321739#1289')
+        button.innerHTML = 'コピー完了！'
+        setTimeout(() => button.innerHTML = '文章をコピー', 1000)
+      })
+    </script>
   </head>
   <body>
     <h1 class=dot style="border-bottom:3px solid #000">61321739’s site</h1><br>
     <p><h2>61321739</h2></p>
     <p>Twitter:<a href="https://twitter.com/NNtdxPq0DU5Tcue">https://twitter.com/NNtdxPq0DU5Tcue</a></p>
-    <p>Discord:61321739#1289</p>
+    <p>Discord:61321739#1289
+      <button id="copy-discord">Copy</button>
+    </p>
     <p>Scratch:<a href="https://scratch.mit.edu/users/61321739/">https://scratch.mit.edu/users/61321739/</a></p>
   </body>
 </html>
